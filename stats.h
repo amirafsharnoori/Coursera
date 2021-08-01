@@ -39,7 +39,7 @@ void print_statistics(unsigned char *,unsigned int);
  * @param   array length
  * @return	void
  ****************************************************************************/
-void print_array(unsigned char *,unsigned int);
+void print_array(const unsigned char *,unsigned int);
 
 
 /*****************************************************************************
@@ -49,7 +49,7 @@ void print_array(unsigned char *,unsigned int);
  * @param   array length
  * @return	the median value
  ****************************************************************************/
-int find_median(unsigned char *,unsigned int);
+float find_median(unsigned char *,unsigned int);
 
 
 /*****************************************************************************
@@ -59,7 +59,7 @@ int find_median(unsigned char *,unsigned int);
  * @param   array length
  * @return  the mean value
  ****************************************************************************/
-int find_mean(unsigned char *,unsigned int);
+float find_mean(unsigned char *,unsigned int);
 
 
 /*****************************************************************************
