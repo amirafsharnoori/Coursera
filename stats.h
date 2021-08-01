@@ -19,12 +19,15 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
+
+
+
 /*****************************************************************************
  * @brief Function to print statistics of an array
  * This function prints the statistics of an array including minimum, maximum, mean, and median.
- * @input   array address
- * @input   array length
- * @return void
+ * @param   array address
+ * @param   array length
+ * @return	void
  ****************************************************************************/
 void print_statistics(unsigned char *,unsigned int);
 
@@ -32,9 +35,9 @@ void print_statistics(unsigned char *,unsigned int);
 /*****************************************************************************
  * @brief Function to print array
  * This function prints an array of data and a length, prints the array to the screen
- * @input   array address
- * @input   array length
- * @return void
+ * @param   array address
+ * @param   array length
+ * @return	void
  ****************************************************************************/
 void print_array(unsigned char *,unsigned int);
 
@@ -42,9 +45,9 @@ void print_array(unsigned char *,unsigned int);
 /*****************************************************************************
  * @brief   Function to find the median
  * This function finds the median of array.
- * @input   array address
- * @input   array length
- * @return the median value
+ * @param   array address
+ * @param   array length
+ * @return	the median value
  ****************************************************************************/
 int find_median(unsigned char *,unsigned int);
 
@@ -52,8 +55,8 @@ int find_median(unsigned char *,unsigned int);
 /*****************************************************************************
  * @brief   Function to find the mean
  * This function finds the mean value of the array
- * @input   array address
- * @input   array length
+ * @param   array address
+ * @param   array length
  * @return  the mean value
  ****************************************************************************/
 int find_mean(unsigned char *,unsigned int);
@@ -62,18 +65,18 @@ int find_mean(unsigned char *,unsigned int);
 /*****************************************************************************
  * @brief Function to find the max
  * This function finds the maximum value of array
- * @input   array address
- * @input   array length
- * @return the maximum
+ * @param   array address
+ * @param   array length
+ * @return	the maximum value
  ****************************************************************************/
 unsigned char find_maximum(unsigned char *,unsigned int);
 
 /*****************************************************************************
  * @brief Function to find the min
  * This function finds the minimum value of array
- * @input   array address
- * @input   array length
- * @return the minimum value
+ * @param   array address
+ * @param   array length
+ * @return	the minimum value
  ****************************************************************************/
 unsigned char find_minimum(unsigned char *,unsigned int);
 
@@ -81,8 +84,8 @@ unsigned char find_minimum(unsigned char *,unsigned int);
 /*****************************************************************************
  * @brief Function to sort the array
  * This function sorts the array
- * @input   array address
- * @input   array length
+ * @param   array address
+ * @param   array length
  * @return  void
  ****************************************************************************/
 void sort_array(unsigned char *,unsigned int);
